@@ -86,7 +86,7 @@ void ins_sort(int A[], int length)
             break;
             else
             {
-                temp=A[j];
+                temp=A[j];    //Swapping values
                 A[j]=A[j+1];
                 A[j+1]=temp;
             }
