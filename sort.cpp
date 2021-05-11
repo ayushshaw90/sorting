@@ -1,5 +1,4 @@
 #include<iostream>
-#include<string>
 using namespace std;
 
 void selection_sort(int* B, int length)
