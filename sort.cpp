@@ -9,7 +9,7 @@ void selection_sort(int* B, int length)
         max=i;
         for(j=0;j<=i;j++)
         {
-            if(*(B+j)>*(B+max))
+            if(*(B+j)>*(B+max))   //equivalent to    if(B[j]>B[max])
             {
                 max=j;
             }
