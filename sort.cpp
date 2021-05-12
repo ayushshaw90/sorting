@@ -93,17 +93,3 @@ void ins_sort(int A[], int length)
         }
     }
 }
-
-int main(){
-    //the sample array.
-    int A[]={786,122,93,666,5,1000,20,1};
-    //the length of array
-    int l=sizeof(A)/sizeof(A[0]);   //calculating length of array
-    insertion_sort(A,l);
-    for (int i = 0; i < l; i++)
-    {
-        cout<<A[i]<<endl;
-    }
-    return(0);
-}
-/*code run successful*/
